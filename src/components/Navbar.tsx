@@ -40,26 +40,26 @@ export const Navbar = () => {
             <Box flex={1} />
             <Box display={'flex'} width={'100%'} justifyContent={'end'} sx={{ marginRight: '15px' }}>
 
-                <NextLink href={'#'} legacyBehavior passHref>
+                <NextLink href={'#localizacion'} legacyBehavior passHref>
                     <Link sx={{ margin: '0px 10px' }}>
                         <Typography color={'white'} fontSize={21}>
-                            Boton
+                            Localizacion
                         </Typography>
                     </Link>
                 </NextLink>
 
-                <NextLink href={'#'} legacyBehavior passHref>
+                <NextLink href={'#techos'} legacyBehavior passHref>
                     <Link sx={{ margin: '0px 10px' }}>
                         <Typography color={'white'} fontSize={21}>
-                            Boton
+                            Techos
                         </Typography>
                     </Link>
                 </NextLink>
 
-                <NextLink href={'#'} legacyBehavior passHref>
+                <NextLink href={'#plantillas'} legacyBehavior passHref>
                     <Link sx={{ margin: '0px 15px' }}>
                         <Typography color={'white'} fontSize={21}>
-                            Boton
+                            Plantillas
                         </Typography>
                     </Link>
                 </NextLink>
